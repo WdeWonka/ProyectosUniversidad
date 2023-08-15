@@ -4,16 +4,17 @@ PARCIAL I : CODIGO DEL PROYECTO FACTURA
 
 	package unitOneShit;
 
-	//PARA LA PRUEBA DEL CODiGO COPiAR DESDE AQUi
+//COPIAR LAS LIBRERIAS  ↓↓↓↓
 
-	//LiBRERiAS DEL PROYECTO
-	
+ 	//LiBRERiAS DEL PROYECTO	
  	import java.text.SimpleDateFormat;
 	import java.util.Date;
 	import java.util.Random;
 	import java.util.Scanner;
-
+	
         public class Proyecto {
+
+ //PARA LA PRUEBA DEL CODiGO COPiAR DESDE AQUi ↓↓↓
 
 	public static class Productos{
 		private int id;
@@ -315,9 +316,7 @@ PARCIAL I : CODIGO DEL PROYECTO FACTURA
 	       factura.menu();
 		   factura.pedirDatos();
 	       factura.printFactura(); 
-	    }
-
-	
+	    }	
 
 }
 
