@@ -2,19 +2,18 @@
 
 PARCIAL I : CODIGO DEL PROYECTO FACTURA 
 
-package unitOneShit;
+	package unitOneShit;
 
-//PARA LA PRUEBA DEL CODIGO COPIAR DESDE AQUI 
+	//PARA LA PRUEBA DEL CODiGO COPiAR DESDE AQUi
 
-//librerias del proyecto
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Random;
-import java.util.Scanner;
+	//LiBRERiAS DEL PROYECTO
+	
+ 	import java.text.SimpleDateFormat;
+	import java.util.Date;
+	import java.util.Random;
+	import java.util.Scanner;
 
-public class Proyecto {
-
-//O COPIAR DESDE AQUI Y LUEGO COPIAR LAS IMPORTACIONES
+        public class Proyecto {
 
 	public static class Productos{
 		private int id;
