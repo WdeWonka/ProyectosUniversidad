@@ -12,7 +12,6 @@ PARCIAL I : CODIGO DEL PROYECTO FACTURA
 	import java.util.Random;
 	import java.util.Scanner;
 	
-        public class Proyecto {
 
  //PARA LA PRUEBA DEL CODiGO COPiAR DESDE AQUi ↓↓↓
 
