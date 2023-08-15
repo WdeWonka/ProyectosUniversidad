@@ -13,7 +13,7 @@ PARCIAL I : CODIGO DEL PROYECTO FACTURA
 	import java.util.Scanner;
 	
 
- //PARA LA PRUEBA DEL CODiGO COPiAR DESDE AQUi ↓↓↓
+ //CODIGO ↓↓↓
 
 	public static class Productos{
 		private int id;
