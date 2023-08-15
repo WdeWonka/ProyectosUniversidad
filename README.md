@@ -215,7 +215,7 @@ PARCIAL I : CODIGO DEL PROYECTO FACTURA
 		
 		System.out.println("═══════════════════════════════");
 		System.out.println("        Orden #" + nOrden);
-    System.out.println("-------------------------------");
+   		System.out.println("-------------------------------");
 		System.out.println("  Cant. " +          "Prod.       " +     "   Sub. " );
 		if(cantidadH > 0) {
 			System.out.println("   " + cantidadH + "    " + nombreH + "      " + totalH);
@@ -226,17 +226,17 @@ PARCIAL I : CODIGO DEL PROYECTO FACTURA
 		if(cantidadB > 0) {
 			System.out.println("   " + cantidadB + "    " + nombreB + "      " + totalB);
 		}
-    System.out.println("-------------------------------");
+    		System.out.println("-------------------------------");
 		System.out.println("SUBTOTAL:         " + subtotal );
 		System.out.println("IVA:              " + iva );
-    System.out.println("-------------------------------");
+    		System.out.println("-------------------------------");
 		System.out.println("TOTAL: Q          " + total );
-    System.out.println("-------------------------------");
+    		System.out.println("-------------------------------");
 		System.out.println("═══════════════════════════════");
 		System.out.println("      DATOS DE FACTURACiON: ");
 		System.out.println("ingrese su nombre y apellido: ");
 		cliente = teclado.nextLine();
-        System.out.println("-------------------------------");
+        	System.out.println("-------------------------------");
 		System.out.println("Desea agregar nit para la factura? (S/N)");
 		String a = teclado.nextLine().toLowerCase() ;
 		if(a.equals("s")) {
@@ -252,7 +252,7 @@ PARCIAL I : CODIGO DEL PROYECTO FACTURA
 		}else {
 			nit = "C/F";
 		}
-    System.out.println("-------------------------------");
+    		System.out.println("-------------------------------");
 		System.out.println("Metodo de pago: ");
 		System.out.println("1.Efectivo: ");
 		System.out.println("2.Tarjeta: ");
@@ -270,11 +270,11 @@ PARCIAL I : CODIGO DEL PROYECTO FACTURA
 	public void printFactura(){
 		String fecha = getFecha();
 		
-    System.out.println("");
-    System.out.println("imprimiendo factura....");
-    System.out.println("---------------------------------------");
-    System.out.println("");
-    System.out.println("");
+    		System.out.println("");
+    		System.out.println("imprimiendo factura....");
+    		System.out.println("---------------------------------------");
+    		System.out.println("");
+    		System.out.println("");
 		System.out.println("═══════════════════════════════════════");
 		System.out.println("            Restaurante S.A          ");
 		System.out.println("        Fecha & Hora de Emision:     ");
@@ -301,11 +301,11 @@ PARCIAL I : CODIGO DEL PROYECTO FACTURA
 		System.out.println("---------------------------------------");
 		System.out.println("     TOTAL: Q              " + total);
 		System.out.println("---------------------------------------");
-    System.out.println("     PAGOS:");
-    System.out.println("     "+metodoPago + "             "+total);
+    		System.out.println("     PAGOS:");
+    		System.out.println("     "+metodoPago + "             "+total);
 		System.out.println("---------------------------------------");
-    System.out.println("                                     ");
-    System.out.println("         GRACIAS POR SU VISITA       ");
+    		System.out.println("                                     ");
+    		System.out.println("         GRACIAS POR SU VISITA       ");
 		System.out.println("═══════════════════════════════════════");	
 	}
 			
